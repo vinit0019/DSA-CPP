@@ -94,7 +94,7 @@ int main(){
     // int a = 100;
     // int b = 20;
     //  a %= b;
-    cout << endl;
+    // cout << a << endl;
 
 
 
