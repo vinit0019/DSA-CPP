@@ -19,6 +19,6 @@ int main()
     cout << e[2] << endl;
     cout << e[3] << endl;
     cout << e[4] << endl;
-
+    
     return 0;
 }
