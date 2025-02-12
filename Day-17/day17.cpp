@@ -63,7 +63,63 @@ int main(){
 
     // ================================================
 
+    //  int row,col;
+
+    // cout << "enter array row size => ";
+    // cin >> row;
+
+    // cout << "enter array col size => ";
+    // cin >> col;
+
+    // int a[row][col];
     
-    
+    // for (int i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < col; j++)
+    //     {
+    //         cout << "enter value =[" << i << "][" << j << "] => ";
+    //         cin >> a[i][j]; 
+    //     }
+    //     cout << endl;
+
+    //     for (int i = 0; i < row; i++)
+    //     {
+    //         for (int j = 0; j < col; j++)
+    //         {
+    //            cout << a[j][i];
+    //         }
+    //         cout << endl;
+    //     }
+    // }
+
+    // =====================================================
+
+    int row,col;
+
+    cout << "enter size of array => ";
+    cin >> row;
+
+    cout << "enter size of array => ";
+    cin >> col;
+
+    int a[row][col];
+
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < col; j++)
+        {
+           cout << " enter valur [" << i << "][" << j << "] => ";
+           cin >> a[i][j];
+        }
+    }
+
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < col; j++)
+        {
+           cout << a[i][j] << " ";
+        }
+        cout << endl;
+    }
     
 }

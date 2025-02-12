@@ -51,6 +51,12 @@ int main(){
         case 4 :
         cout << "Enter position number you want to Delete => ";
         cin >> K;
+        for (int i = 0; i < size-1; i++)
+        {
+            /* code */
+        }
+        
+
         break;
         
         }
@@ -59,3 +65,5 @@ int main(){
     
 
 }
+
+
