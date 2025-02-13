@@ -3,6 +3,9 @@ using namespace std;
 
 int main(){
 
+    // Develop a program that finds all the negative elements from a given 1D array.
+    // =============================================================================
+
     // int num;
     // cout << "enter array size => ";
     // cin >> num;
@@ -22,7 +25,8 @@ int main(){
     //     }
     // }  
 
-    // ===========================================
+    // Develop a Program to find the largest element from a given 2D array.
+    // ====================================================================
  
     // int row,col;
 
@@ -61,7 +65,8 @@ int main(){
     //     cout << max ;
     // }
 
-    // ================================================
+    // Develop a Program to find the transpose matrix of a given 2D array.
+    // ===================================================================
 
     //  int row,col;
 
@@ -92,7 +97,8 @@ int main(){
     //     }
     // }
 
-    // =====================================================
+    // Develop a Program to print and find the sum of all elements of a given row & column from a 2D array.
+    // =================================================================================================
 
     int row,col;
 
@@ -122,4 +128,19 @@ int main(){
         cout << endl;
     }
     
+    int ro;
+    cout << "what number row you want to sum = ";
+    cin >> ro;
+    
+    int sum = 0;
+    
+    for (int i = 0; i < ro ; i++)
+    {
+        for (int j = 0; j < col; i++)
+        {
+            sum += a[i][j];
+        }
+    }
+    cout << sum ;
+
 }
