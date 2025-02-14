@@ -141,18 +141,40 @@ int main(){
     // - Write a program to reverse the elements of a **1D array**.  
     // ==============================================================
 
-    int size;
+    // int size;
 
-    cout << "Enter arrays size => ";
-    cin >> size;
+    // cout << "Enter arrays size => ";
+    // cin >> size;
 
-    int a[size];
-    for (int i = 0; i < size; i++)
-    {
-        cout << "Enter index number => [" << i <<"] => ";
-        cin >> a[i];
-    }
+    // int a[size];
+    // for (int i = 0; i < size; i++)
+    // {
+    //     cout << "Enter index number => [" << i <<"] => ";
+    //     cin >> a[i];
+    // }
 
-    
+    // - Write a function that calculates and returns the sum of all elements in an array.  
+    // =========================================================================================
+
+    // int sum = 0;
+    // int size;
+
+    // cout << "Enter size in Arrays => ";
+    // cin >> size;
+
+    // int a[size];
+
+    // for (int i = 0; i < size; i++)
+    // {
+    //     cout << "Enter index number => [" << i << "] => ";
+    //     cin >> a[i];
+    // }
+
+    // for (int i = 0; i < size; i++)
+    // {
+    //     sum += a[i];
+    // }
+    // cout << "Total sum of Arrays => " << sum ;
+
     
 }
