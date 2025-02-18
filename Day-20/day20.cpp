@@ -88,14 +88,12 @@ int main(){
         break;
 
         default :
-        cout << "Thank you:::";
+        cout << "Thank you..................";
         break;
         }
 
     } while (vinit != 0);
     
-
-
 
 
 
