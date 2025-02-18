@@ -1,7 +1,24 @@
 #include<iostream>
 using namespace  std;
 
-int main(){
     
+    void  aaHaloo()
+    {
+        cout << "Chaloooo" << endl;
+    }
 
-}
+    int main(){
+        aaHaloo();
+        aaHaloo();
+        aaHaloo();
+        aaHaloo();
+        aaHaloo();
+        aaHaloo();
+        aaHaloo();
+        aaHaloo();
+        aaHaloo();
+        aaHaloo();
+        aaHaloo();
+
+        return 0;
+    }

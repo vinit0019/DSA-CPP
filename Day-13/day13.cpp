@@ -181,12 +181,12 @@ int main(){
     //     }
     //     for (int  blank =4 ; blank >=row ; blank--)
     //     {
-    //         cout << "- " ;
+    //         cout << "  " ;
     //     }
 
     //     for (int  blank =4 ; blank >=row ; blank--)
     //     {
-    //         cout << "- " ;
+    //         cout << "  " ;
     //     }
     //     for (int col =row ; col >=1 ; col--)
     //     {
@@ -203,12 +203,12 @@ int main(){
     //     }
     //     for (int blank = 4; blank >=row ; blank--)
     //     {
-    //         cout << "- " ;
+    //         cout << "  " ;
     //     }
 
     //     for (int blank = 4; blank >=row ; blank--)
     //     {
-    //         cout << "- " ;
+    //         cout << "  " ;
     //     }
     //     for (int col = row; col>=1 ; col--)
     //     {
@@ -223,7 +223,6 @@ int main(){
     // 1 2 3 
     // 1 2 
     // 1
-
     // 1 2 
     // 1 2 3 
     // 1 2 3 4 

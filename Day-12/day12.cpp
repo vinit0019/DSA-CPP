@@ -23,17 +23,37 @@ int main(){
     // 14 15 16          
     // 17 18 19 20
 
-    int vinit = 11;
+    // int vinit = 11;
 
-    for (int row = 11; row<=20 ; row++)
-    {
-        for (int col=11 ; col<=row ; col++)
-        {
-            cout << vinit << " ";
-            vinit++;
-        }
-        cout << endl;
-    }
+    // for (int row = 11; row<=20 ; row++)
+    // {
+    //     for (int col=11 ; col<=row ; col++)
+    //     {
+    //         cout << vinit << " ";
+    //         vinit++;
+    //     }
+    //     cout << endl;
+    // }
+    
+
+    // - - - - 5
+    // - - - 4 5
+    // - - 3 4 5 
+    // - 2 3 4 5 
+    // 1 2 3 4 5 
+
+    // for (int row= 5; row >=1 ; row--)
+    // {
+    //     for (int blank =row-1 ; blank >=1; blank--)
+    //     {
+    //        cout << "- ";
+    //     }
+    //     for (int col=row; col<=5 ;col++)
+    //     {
+    //        cout << col << " ";
+    //     }
+    //     cout << endl;
+    // }
     
 
     // 1 0 1 0 1
@@ -61,5 +81,52 @@ int main(){
     //     }
     //     cout << endl;
     // }
+    
+    // - - - -  5 - - - -
+    // - - - 4  5 4 - - -
+    // - - 3 4  5 4 3 - - 
+    // - 2 3 4  5 4 3 2 -
+    // 1 2 3 4  5 4 3 2 1 
+
+    // for (int row =5; row>=1 ; row--)
+    // {
+    //     for (int blank= row-1 ; blank>=1 ; blank--)
+    //     {
+    //         cout << "- ";
+    //     }
+    //     for (int col = row; col <=4 ; col++)
+    //     {
+    //         cout << col << " " ;
+    //     }   
+
+    //     for (int col = 5; col >=row ; col--)
+    //     {
+    //         cout << col << " " ;
+    //     } 
+    //     for (int blank= 1 ; blank<=row-1 ; blank++)
+    //     {
+    //         cout << "- ";
+    //     } 
+    //     cout << endl;
+    // }
+    
+    // 1 - - - - - - - - 1
+    // 1 2 - - - - - - 2 1 
+    // 1 2 3 - - - - 3 2 1 
+    // 1 2 3 4 - - 4 3 2 1
+    // 1 2 3 4 5 5 4 3 2 1 
+
+    for (int row ; row ; row++)
+    {
+        for (int col ; col ; col)
+        {
+         cout << col << " ";
+        }
+        for (int blank ; blank ; blank)
+        {
+         cout << "- " ;  
+        }
+        cout << endl;
+    }
     
 }
