@@ -57,7 +57,7 @@ int main(){
         cout << "Enter second value=> ";
         cin >> d;
          
-        cout << "c-d is : " << sub(c,d) << endl << endl;
+        cout << "sub is : " << sub(c,d) << endl << endl;
         break;
 
         case 3 :
@@ -88,7 +88,7 @@ int main(){
         break;
 
         default :
-        cout << "Thank you..................";
+        cout << "Thank you.................." << endl << endl;
         break;
         }
 

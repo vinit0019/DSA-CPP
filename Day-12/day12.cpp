@@ -82,11 +82,11 @@ int main(){
     //     cout << endl;
     // }
     
-    // - - - -  5 - - - -
-    // - - - 4  5 4 - - -
-    // - - 3 4  5 4 3 - - 
-    // - 2 3 4  5 4 3 2 -
-    // 1 2 3 4  5 4 3 2 1 
+    // - - - - 5 - - - -
+    // - - - 4 5 4 - - -
+    // - - 3 4 5 4 3 - - 
+    // - 2 3 4 5 4 3 2 -
+    // 1 2 3 4 5 4 3 2 1 
 
     // for (int row =5; row>=1 ; row--)
     // {
@@ -116,17 +116,25 @@ int main(){
     // 1 2 3 4 - - 4 3 2 1
     // 1 2 3 4 5 5 4 3 2 1 
 
-    for (int row ; row ; row++)
-    {
-        for (int col ; col ; col)
-        {
-         cout << col << " ";
-        }
-        for (int blank ; blank ; blank)
-        {
-         cout << "- " ;  
-        }
-        cout << endl;
-    }
+    // for (int row = 1 ; row<=5 ; row++)
+    // {
+    //     for (int col =1; col<=row ; col++)
+    //     {
+    //      cout << col << " ";
+    //     }
+    //     for (int blank=4 ; blank>=row ; blank--)
+    //     {
+    //      cout << "- " ;  
+    //     }
+    //     for (int blank=4 ; blank>=row ; blank--)
+    //     {
+    //      cout << "- " ;  
+    //     }
+    //     for (int col =row; col>=1 ; col--)
+    //     {
+    //      cout << col << " ";
+    //     }
+    //     cout << endl;
+    // }
     
 }
