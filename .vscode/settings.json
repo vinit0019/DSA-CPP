@@ -1,7 +1,12 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "array": "cpp",
+        "iterator": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
