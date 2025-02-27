@@ -17,23 +17,10 @@ void update(int &uservalue,int a[], int size)
     }
 }
 
-// void remuve(int &uservalue,int a[], int &size)
-// {
-//     cout << "enter you want to delete index =>";
-//     cin >> uservalue;
 
-//     if (uservalue>=0 && uservalue<size)
-//     {
-//         for (int i =uservalue ; i < size-1 ; i++) 
-//         {
-//             a[i] = a[i + 1];
-//         }
-//         size--;
-//     } 
-// }
-
-int remov(int &dlt, int a[], int &size)
+int remov(int a[], int &size)
 {
+    int dlt;
     cout << "enter you want to delete index => ";
     cin >> dlt;
 
@@ -56,7 +43,7 @@ int main (){
     
     cout << endl;
 
-    int a[size];
+    int a[1];
     do
     {
         cout << "1 : create" << endl;
@@ -71,11 +58,10 @@ int main (){
         {
 
         case 1:
+        int size;
         cout << "Enter Array size => " ;
         cin >> size;
 
-        int size = 5;
-        
         for (int i = 0; i < size; i++)
         {
             cout << "Enter index number => [" << i << "]" << "=>";
@@ -116,7 +102,7 @@ int main (){
             cout << "Enter arrays value.....";
         }
         else{
-            remov(&dlt, a, size);
+            remov(a, size);
         }
         break;
 
