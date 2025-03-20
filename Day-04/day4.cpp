@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     // Arithmetic Operators
-
+    // ======================================
     // int a = 20;
     // int b = 10;
 
@@ -20,6 +20,7 @@ int main(){
 
  
     // sum  C=A+B
+    // ====================================
     // int a ;
     // int b ;
     // int c = a+b;
@@ -35,7 +36,7 @@ int main(){
 
 
     // Relational Oprators
-
+    // =======================================
     // int a = 50;
     // int b = 60;
 
@@ -59,7 +60,7 @@ int main(){
 
 
     // Logical operator 
-
+    // =====================================
     // int a = 5;
     // int b = 8;
 
@@ -70,7 +71,7 @@ int main(){
 
 
     // Assignment Oprators
-
+    // =========================================
     // int a = 100;
     // int b = 20;
     //  a += b;
