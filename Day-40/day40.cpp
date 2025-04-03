@@ -55,7 +55,7 @@ void print(int n, int arr[]){
 
 int main(){
     
-    int n,chose;
+    int n, chose;
     cout << "enter size of arrays => " ;
     cin >> n;
 

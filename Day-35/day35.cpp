@@ -99,7 +99,7 @@ int main(){
     n4->next = NULL;
 
     obj1.head = n1;
-    // node *head = n1;
+    // node *head =  n1;
 
     do
     {   

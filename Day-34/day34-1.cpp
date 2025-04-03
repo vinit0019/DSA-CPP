@@ -41,19 +41,19 @@ using namespace std;
 
 
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// // Define the structure for a node
-// struct Node {
-//     int data;
-//     Node* next;
+// Define the structure for a node
+struct Node {
+    int data;
+    Node* next;
 
-//     Node(int val) {
-//         data = val;
-//         next = nullptr;
-//     }
-// };
+    Node(int val) {
+        data = val;
+        next = nullptr;
+    }
+};
 
 // class LinkedList {
 // public:

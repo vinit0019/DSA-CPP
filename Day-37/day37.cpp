@@ -10,7 +10,7 @@ int main(){
     cout << "enter Arrays size=>";
     cin >> n;
 
-    int arr[n];
+    int arr [n];
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];

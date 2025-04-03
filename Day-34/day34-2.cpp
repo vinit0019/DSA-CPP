@@ -181,6 +181,7 @@ int main() {
     node *n4 = new node(4);
 
     linklist obj1;
+    
 
     n1->next = n2;
     n2->next = n3;

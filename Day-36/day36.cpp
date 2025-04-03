@@ -33,6 +33,7 @@ using namespace std;
             top--;
         }
     }
+    
 
     void peek(){
         if (top == -1)
